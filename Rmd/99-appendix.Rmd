@@ -1,0 +1,44 @@
+# (APPENDIX) 별첨 {-}
+
+# 참고문헌 {#references}
+
+1. US FDA. Guidance for Industry - Population Pharmacokinetics, Feb. 1999.
+2. European Medicines Agency, Guideline on Reporting the Results of Population
+Pharmacokinetic Analysis. Jun. 2007.
+3. Beal SL, Sheiner LB. Estimating Population Pharmacokinetics. CRC Critical Rev
+Biomed Eng 1982;8:195-222.
+4. Bonate PL. Pharmacokinetic-Pharmacodynamic Modeling and Simulation. 2e.
+Springer. 2011.
+5. Ette EI, Williams PJ. Pharmacometrics: The Science of Quantitative Pharmacology.
+John Wiley & Sons Inc. 2007.
+6. Gabrielsson J, Weiner D. Pharmacokinetic & Pharmacodynamic Data Analysis:
+Concepts and Applications. 4e. Swedish Pharmaceutical Press. 2000.
+7. Sheiner LB. Learning vs Confirming in Clinical Drug Development, Clin
+Pharmacol Ther 1997; 61:275-291.
+8. Karlsson MO. Diagnosing Model Diagnostics. Clinical Pharmacology &
+Therapeutics. 2007; 82:17-20.
+9. Kevin Dykstra. Reporting guidelines for population pharmacokinetic analyses. J
+Pharmacokinet Pharmacodyn. 2015; 42:301-314.
+
+# 제·개정 이력 {#versions}
+
+연번 제·개정번호 승인일자 주요내용
+1 B1-2015-2-011 2015.09. 제정
+
+# 정보 {#info}
+
+의약품 개발 시 집단 약동학 활용을 위한 가이드라인
+발 행 일
+발 행 인
+편집위원장
+편 집 위 원
+도움주신 분
+발 행 처
+2015 월 09월
+손 여 원
+이 선 희
+(의약품심사부 종양약품과)
+한의식, 김소희, 윤경은, 엄정윤, 박소라, 김동환, 전설희, 김미지
+식품의약품안전평가원 순환계약품과, 소화계약품과,
+집단 약동학 가이드라인 실무작업반
+식품의약품안전평가원 의약품심사부 종양약품과

@@ -1,2 +1,3 @@
 output_dir: docs
+rmd_subdir: yes
 delete_merged_file: yes
