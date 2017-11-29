@@ -4,6 +4,9 @@ pdf:
 gitbook:
 	Rscript --quiet _render.R "bookdown::gitbook"
 
+epub:
+	Rscript --quiet _render.R "bookdown::epub_book"
+
 all:
 	Rscript --quiet _render.R
 

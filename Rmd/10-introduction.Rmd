@@ -1,0 +1,13 @@
+# 서론 {#introduction}
+
+본 가이드라인은 약물 개발 단계에서 집단 약동학(Population Pharmacokinetics)을 이용하여 소집단 간 안전성 및 유효성의 차이를 밝히는 방법에 대한 권장사항을 기술하고 있다. 또한 집단 약동학 분석 시 고려해야 할 과학적, 규제적 요인도 요약되어 있다. 본 가이드라인에서는 집단 약동학 연구 및/또는 분석이 필요한 시점, 집단 약동학 연구의 설계와 수행법, 집단 약동학 자료의 처리와 분석방법, 집단 약동학 모형의 타당성 검증법 및 식품의약품안전처(이하 식약처) 제출용 보고서의 작성법 등에 대해 기술하였다. 본 가이드라인은 집단 약동학에 주안점을 두고 작성되었으나, 이 원칙들은 집단 약력학 (Population Pharmacodynamics)과 독성 동태학 연구에도 동일하게 적용 가능하다. 
+
+소집단(subgroup)의 안전성 및 유효성 분석은 약물 개발 및 규제 영역에서 급변하는 분야이므로 약물 개발 전 과정에서 제약사와 식약처 간 적극적으로 협의할 것을 권장한다. 
+
+제약 산업 종사자와 규제 당국은 대상자 소집단에서의 안전성 및 유효성 분석에 있어 집단 약동학/약력학의 활용에 대해 오랜 기간 동안 관심을 가져왔다. 이러한 관심을 바탕으로 외국에는 다양한 가이드라인이 있다.
+
+- General Considerations for the Clinical Evaluation of Drugs (FDA 77-3040)
+- International Conference on Harmonisation (ICH) guidance: E4 Dose-Response Information to Support Drug Registration and E7 Studies in Support of Special Populations: Geriatrics
+
+이러한 가이드라인들은 약물 개발에 있어 약동학 평가의 일부로서 집단 약동학 접근법 (population pharmacokinetic approach)과 같은 특별한 자료 수집과 분석 기법을 약동학 평가에 사용 하는 근거를 제공한다.
+
