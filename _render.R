@@ -18,11 +18,11 @@ for (fmt in formats) {
   res = bookdown:::Rscript(c('-e', shQuote(cmd)))
   if (res != 0) stop('Failed to compile the book to ', fmt)
   if (!travis && fmt == 'bookdown::epub_book')
-    bookdown::calibre('_book/bookdown.epub', 'mobi')
+    bookdown::calibre('docs/poppk.epub', 'mobi')
 }
 
 r = '<body onload="window.location = \'https://bookdown.org/yihui\'+location.pathname">'
-for (f in list.files('_book', '[.]html$', full.names = TRUE)) {
+for (f in list.files('docs', '[.]html$', full.names = TRUE)) {
   x = readLines(f)
   if (length(i <- grep('^\\s*<body>\\s*$', x)) == 0) next
   # patch HTML files in gh-pages if built on Travis, to redirect to bookdown.org

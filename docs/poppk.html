@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html >
-
+<html lang="" xml:lang="">
 <head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>의약품 개발 시 집단 약동학 활용을 위한 가이드라인</title>
-  <meta name="description" content="의약품 개발 시 집단 약동학 활용을 위한 가이드라인">
-  <meta name="generator" content="bookdown 0.5.9 and GitBook 2.6.7">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3 집단 약동학 분석 | 의약품 개발 시 집단 약동학 활용을 위한 가이드라인</title>
+  <meta name="description" content="3 집단 약동학 분석 | 의약품 개발 시 집단 약동학 활용을 위한 가이드라인" />
+  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="의약품 개발 시 집단 약동학 활용을 위한 가이드라인" />
+  <meta property="og:title" content="3 집단 약동학 분석 | 의약품 개발 시 집단 약동학 활용을 위한 가이드라인" />
   <meta property="og:type" content="book" />
   
   
@@ -17,28 +16,33 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="의약품 개발 시 집단 약동학 활용을 위한 가이드라인" />
+  <meta name="twitter:title" content="3 집단 약동학 분석 | 의약품 개발 시 집단 약동학 활용을 위한 가이드라인" />
   
   
   
 
-<meta name="author" content="편집위원장 이선희, 편집위원 한의식, 김소희, 윤경은, 엄정윤, 박소라, 김동환, 전설희, 김미지 (의약품심사부 종양약품과)">
+<meta name="author" content="편집위원장 이선희, 편집위원 한의식, 김소희, 윤경은, 엄정윤, 박소라, 김동환, 전설희, 김미지 (의약품심사부 종양약품과)" />
 
 
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="background.html">
-<link rel="next" href="indication.html">
+<link rel="prev" href="background.html"/>
+<link rel="next" href="indication.html"/>
+<script src="libs/header-attrs-2.1/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
 
 
 
@@ -68,59 +72,68 @@
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>서문</a></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> 서론</a></li>
 <li class="chapter" data-level="2" data-path="background.html"><a href="background.html"><i class="fa fa-check"></i><b>2</b> 배경</a></li>
-<li class="chapter" data-level="3" data-path="poppk.html"><a href="poppk.html"><i class="fa fa-check"></i><b>3</b> 집단 약동학 분석</a><ul>
-<li class="chapter" data-level="3.1" data-path="poppk.html"><a href="poppk.html#-two-stage-approach"><i class="fa fa-check"></i><b>3.1</b> 2-단계 접근법(Two-Stage Approach)</a></li>
-<li class="chapter" data-level="3.2" data-path="poppk.html"><a href="poppk.html#----nonlinear-mixed-effects-modeling-approach"><i class="fa fa-check"></i><b>3.2</b> 비선형 혼합-효과 모형 접근법(Nonlinear Mixed-Effects Modeling Approach)</a></li>
+<li class="chapter" data-level="3" data-path="poppk.html"><a href="poppk.html"><i class="fa fa-check"></i><b>3</b> 집단 약동학 분석</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="poppk.html"><a href="poppk.html#단계-접근법two-stage-approach"><i class="fa fa-check"></i><b>3.1</b> 2-단계 접근법(Two-Stage Approach)</a></li>
+<li class="chapter" data-level="3.2" data-path="poppk.html"><a href="poppk.html#비선형-혼합-효과-모형-접근법nonlinear-mixed-effects-modeling-approach"><i class="fa fa-check"></i><b>3.2</b> 비선형 혼합-효과 모형 접근법(Nonlinear Mixed-Effects Modeling Approach)</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="indication.html"><a href="indication.html"><i class="fa fa-check"></i><b>4</b> 집단 약동학 접근법을 사용하는 경우</a></li>
-<li class="chapter" data-level="5" data-path="research.html"><a href="research.html"><i class="fa fa-check"></i><b>5</b> 연구 계획과 실행</a><ul>
-<li class="chapter" data-level="5.1" data-path="research.html"><a href="research.html#-"><i class="fa fa-check"></i><b>5.1</b> 시료채취 설계</a><ul>
-<li class="chapter" data-level="5.1.1" data-path="research.html"><a href="research.html#---single-trough-sampling-design"><i class="fa fa-check"></i><b>5.1.1</b> 단회-투약직전 시료채취 설계(Single-Trough Sampling Design)</a></li>
-<li class="chapter" data-level="5.1.2" data-path="research.html"><a href="research.html#----multiple-trough-sampling-design"><i class="fa fa-check"></i><b>5.1.2</b> 다회-투약 직전 시료채취 설계(Multiple-Trough Sampling Design)</a></li>
-<li class="chapter" data-level="5.1.3" data-path="research.html"><a href="research.html#----full-population-pharmacokinetic-sampling-design"><i class="fa fa-check"></i><b>5.1.3</b> 전체 집단 약동학 시료채취 설계(Full Population Pharmacokinetic Sampling Design)</a></li>
+<li class="chapter" data-level="5" data-path="research.html"><a href="research.html"><i class="fa fa-check"></i><b>5</b> 연구 계획과 실행</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="research.html"><a href="research.html#시료채취-설계"><i class="fa fa-check"></i><b>5.1</b> 시료채취 설계</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="research.html"><a href="research.html#단회-투약직전-시료채취-설계single-trough-sampling-design"><i class="fa fa-check"></i><b>5.1.1</b> 단회-투약직전 시료채취 설계(Single-Trough Sampling Design)</a></li>
+<li class="chapter" data-level="5.1.2" data-path="research.html"><a href="research.html#다회-투약-직전-시료채취-설계multiple-trough-sampling-design"><i class="fa fa-check"></i><b>5.1.2</b> 다회-투약 직전 시료채취 설계(Multiple-Trough Sampling Design)</a></li>
+<li class="chapter" data-level="5.1.3" data-path="research.html"><a href="research.html#전체-집단-약동학-시료채취-설계full-population-pharmacokinetic-sampling-design"><i class="fa fa-check"></i><b>5.1.3</b> 전체 집단 약동학 시료채취 설계(Full Population Pharmacokinetic Sampling Design)</a></li>
 </ul></li>
-<li class="chapter" data-level="5.2" data-path="research.html"><a href="research.html#-2---"><i class="fa fa-check"></i><b>5.2</b> 대상자별 2회 이상 시료채취의 중요성</a></li>
-<li class="chapter" data-level="5.3" data-path="research.html"><a href="research.html#simulation"><i class="fa fa-check"></i><b>5.3</b> 시뮬레이션(Simulation)</a></li>
-<li class="chapter" data-level="5.4" data-path="research.html"><a href="research.html#-"><i class="fa fa-check"></i><b>5.4</b> 연구 계획</a><ul>
-<li class="chapter" data-level="5.4.1" data-path="research.html"><a href="research.html#add-on---"><i class="fa fa-check"></i><b>5.4.1</b> 부가연구(add-on)로서의 집단 약동학 연구</a></li>
-<li class="chapter" data-level="5.4.2" data-path="research.html"><a href="research.html#stand-alone---"><i class="fa fa-check"></i><b>5.4.2</b> 단독연구(stand-alone)로서의 집단 약동학 연구</a></li>
+<li class="chapter" data-level="5.2" data-path="research.html"><a href="research.html#대상자별-2회-이상-시료채취의-중요성"><i class="fa fa-check"></i><b>5.2</b> 대상자별 2회 이상 시료채취의 중요성</a></li>
+<li class="chapter" data-level="5.3" data-path="research.html"><a href="research.html#시뮬레이션simulation"><i class="fa fa-check"></i><b>5.3</b> 시뮬레이션(Simulation)</a></li>
+<li class="chapter" data-level="5.4" data-path="research.html"><a href="research.html#연구-계획"><i class="fa fa-check"></i><b>5.4</b> 연구 계획</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="research.html"><a href="research.html#부가연구add-on로서의-집단-약동학-연구"><i class="fa fa-check"></i><b>5.4.1</b> 부가연구(add-on)로서의 집단 약동학 연구</a></li>
+<li class="chapter" data-level="5.4.2" data-path="research.html"><a href="research.html#단독연구stand-alone로서의-집단-약동학-연구"><i class="fa fa-check"></i><b>5.4.2</b> 단독연구(stand-alone)로서의 집단 약동학 연구</a></li>
 </ul></li>
-<li class="chapter" data-level="5.5" data-path="research.html"><a href="research.html#-"><i class="fa fa-check"></i><b>5.5</b> 연구 수행</a></li>
+<li class="chapter" data-level="5.5" data-path="research.html"><a href="research.html#연구-수행"><i class="fa fa-check"></i><b>5.5</b> 연구 수행</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="assay.html"><a href="assay.html"><i class="fa fa-check"></i><b>6</b> 약물농도 분석(Assay)</a></li>
-<li class="chapter" data-level="7" data-path="processing.html"><a href="processing.html"><i class="fa fa-check"></i><b>7</b> 자료 처리</a><ul>
-<li class="chapter" data-level="7.1" data-path="processing.html"><a href="processing.html#---"><i class="fa fa-check"></i><b>7.1</b> 자료 정리 및 수정</a></li>
-<li class="chapter" data-level="7.2" data-path="processing.html"><a href="processing.html#outlier"><i class="fa fa-check"></i><b>7.2</b> 이상치(Outlier)</a></li>
-<li class="chapter" data-level="7.3" data-path="research.html"><a href="research.html#-"><i class="fa fa-check"></i><b>7.3</b> 자료 형태</a></li>
+<li class="chapter" data-level="7" data-path="processing.html"><a href="processing.html"><i class="fa fa-check"></i><b>7</b> 자료 처리</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="processing.html"><a href="processing.html#자료-정리-및-수정"><i class="fa fa-check"></i><b>7.1</b> 자료 정리 및 수정</a></li>
+<li class="chapter" data-level="7.2" data-path="processing.html"><a href="processing.html#이상치outlier"><i class="fa fa-check"></i><b>7.2</b> 이상치(Outlier)</a></li>
+<li class="chapter" data-level="7.3" data-path="processing.html"><a href="processing.html#자료-형태"><i class="fa fa-check"></i><b>7.3</b> 자료 형태</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="analysis.html"><a href="analysis.html"><i class="fa fa-check"></i><b>8</b> 자료 분석</a><ul>
-<li class="chapter" data-level="8.1" data-path="analysis.html"><a href="analysis.html#--"><i class="fa fa-check"></i><b>8.1</b> 탐색적 자료 분석</a></li>
-<li class="chapter" data-level="8.2" data-path="processing.html"><a href="processing.html#---"><i class="fa fa-check"></i><b>8.2</b> 집단 약동학 모형 개발</a><ul>
-<li class="chapter" data-level="8.2.1" data-path="analysis.html"><a href="analysis.html#--"><i class="fa fa-check"></i><b>8.2.1</b> 목적, 가설, 가정</a></li>
-<li class="chapter" data-level="8.2.2" data-path="research.html"><a href="research.html#-"><i class="fa fa-check"></i><b>8.2.2</b> 모형 구축</a></li>
-<li class="chapter" data-level="8.2.3" data-path="research.html"><a href="research.html#-"><i class="fa fa-check"></i><b>8.2.3</b> 결과 신뢰성</a></li>
+<li class="chapter" data-level="8" data-path="analysis.html"><a href="analysis.html"><i class="fa fa-check"></i><b>8</b> 자료 분석</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="analysis.html"><a href="analysis.html#탐색적-자료-분석"><i class="fa fa-check"></i><b>8.1</b> 탐색적 자료 분석</a></li>
+<li class="chapter" data-level="8.2" data-path="analysis.html"><a href="analysis.html#집단-약동학-모형-개발"><i class="fa fa-check"></i><b>8.2</b> 집단 약동학 모형 개발</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="analysis.html"><a href="analysis.html#목적-가설-가정"><i class="fa fa-check"></i><b>8.2.1</b> 목적, 가설, 가정</a></li>
+<li class="chapter" data-level="8.2.2" data-path="analysis.html"><a href="analysis.html#모형-구축"><i class="fa fa-check"></i><b>8.2.2</b> 모형 구축</a></li>
+<li class="chapter" data-level="8.2.3" data-path="analysis.html"><a href="analysis.html#결과-신뢰성"><i class="fa fa-check"></i><b>8.2.3</b> 결과 신뢰성</a></li>
 </ul></li>
-<li class="chapter" data-level="8.3" data-path="analysis.html"><a href="analysis.html#--model-validation"><i class="fa fa-check"></i><b>8.3</b> 모형 타당성 검증(Model Validation)</a><ul>
-<li class="chapter" data-level="8.3.1" data-path="analysis.html"><a href="analysis.html#--"><i class="fa fa-check"></i><b>8.3.1</b> 타당성 검증 종류</a></li>
-<li class="chapter" data-level="8.3.2" data-path="analysis.html"><a href="analysis.html#--"><i class="fa fa-check"></i><b>8.3.2</b> 타당성 검증 방법</a></li>
+<li class="chapter" data-level="8.3" data-path="analysis.html"><a href="analysis.html#모형-타당성-검증model-validation"><i class="fa fa-check"></i><b>8.3</b> 모형 타당성 검증(Model Validation)</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="analysis.html"><a href="analysis.html#타당성-검증-종류"><i class="fa fa-check"></i><b>8.3.1</b> 타당성 검증 종류</a></li>
+<li class="chapter" data-level="8.3.2" data-path="analysis.html"><a href="analysis.html#타당성-검증-방법"><i class="fa fa-check"></i><b>8.3.2</b> 타당성 검증 방법</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="report.html"><a href="report.html"><i class="fa fa-check"></i><b>9</b> 집단 약동학 결과보고서</a><ul>
-<li class="chapter" data-level="9.1" data-path="report.html"><a href="report.html#section-9.1"><i class="fa fa-check"></i><b>9.1</b> 요약</a></li>
-<li class="chapter" data-level="9.2" data-path="report.html"><a href="report.html#section-9.2"><i class="fa fa-check"></i><b>9.2</b> 서론</a></li>
-<li class="chapter" data-level="9.3" data-path="processing.html"><a href="processing.html#---"><i class="fa fa-check"></i><b>9.3</b> 목적 및 가설과 가정</a></li>
-<li class="chapter" data-level="9.4" data-path="analysis.html"><a href="analysis.html#--"><i class="fa fa-check"></i><b>9.4</b> 연구자료 및 방법</a></li>
-<li class="chapter" data-level="9.5" data-path="report.html"><a href="report.html#section-9.5"><i class="fa fa-check"></i><b>9.5</b> 결과</a></li>
-<li class="chapter" data-level="9.6" data-path="report.html"><a href="report.html#section-9.6"><i class="fa fa-check"></i><b>9.6</b> 논의</a></li>
-<li class="chapter" data-level="9.7" data-path="research.html"><a href="research.html#-"><i class="fa fa-check"></i><b>9.7</b> 결과의 적용</a></li>
-<li class="chapter" data-level="9.8" data-path="report.html"><a href="report.html#section-9.8"><i class="fa fa-check"></i><b>9.8</b> 부록</a></li>
+<li class="chapter" data-level="9" data-path="report.html"><a href="report.html"><i class="fa fa-check"></i><b>9</b> 집단 약동학 결과보고서</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="report.html"><a href="report.html#요약"><i class="fa fa-check"></i><b>9.1</b> 요약</a></li>
+<li class="chapter" data-level="9.2" data-path="report.html"><a href="report.html#서론"><i class="fa fa-check"></i><b>9.2</b> 서론</a></li>
+<li class="chapter" data-level="9.3" data-path="report.html"><a href="report.html#목적-및-가설과-가정"><i class="fa fa-check"></i><b>9.3</b> 목적 및 가설과 가정</a></li>
+<li class="chapter" data-level="9.4" data-path="report.html"><a href="report.html#연구자료-및-방법"><i class="fa fa-check"></i><b>9.4</b> 연구자료 및 방법</a></li>
+<li class="chapter" data-level="9.5" data-path="report.html"><a href="report.html#결과"><i class="fa fa-check"></i><b>9.5</b> 결과</a></li>
+<li class="chapter" data-level="9.6" data-path="report.html"><a href="report.html#논의"><i class="fa fa-check"></i><b>9.6</b> 논의</a></li>
+<li class="chapter" data-level="9.7" data-path="report.html"><a href="report.html#결과의-적용"><i class="fa fa-check"></i><b>9.7</b> 결과의 적용</a></li>
+<li class="chapter" data-level="9.8" data-path="report.html"><a href="report.html#부록"><i class="fa fa-check"></i><b>9.8</b> 부록</a></li>
 </ul></li>
 <li class="appendix"><span><b>별첨</b></span></li>
 <li class="chapter" data-level="A" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>A</b> 참고문헌</a></li>
 <li class="chapter" data-level="B" data-path="versions.html"><a href="versions.html"><i class="fa fa-check"></i><b>B</b> 제·개정 이력</a></li>
 <li class="chapter" data-level="C" data-path="info.html"><a href="info.html"><i class="fa fa-check"></i><b>C</b> 정보</a></li>
 <li class="divider"></li>
-<li><a href="https://github.com/asancpt" target="blank">github.com/asancpt</a></li>
+<li><a href="https://github.com/pipetcpt/book-poppk" target="blank">github.com/pipetcpt/book-poppk</a></li>
 
 </ul>
 
@@ -139,17 +152,17 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="poppk" class="section level1">
+<div id="poppk" class="section level1" number="3">
 <h1><span class="header-section-number">3</span> 집단 약동학 분석</h1>
 <p>집단 약동학 분석은 개인별 약동학 파라미터가 다르며, 어떤 분포를 보이고, 개인별 차이는 무작위적으로 보이지만, 그렇지 않은 면도 있다는 것을 정량적으로 분석하는 것이다. 개인별로 약동학 파라미터에는 차이가 있으며, 일부는 신장, 체중, 크레아티닌 청소율 등과 같은 고정효과(fixed-effects)로 설명되고, 일부는 무작위적 변이(random variability)이다. 따라서 집단 약동학에서의 관심사는 집단 전체의 약동학 파라미터의 평균값(또는 중앙값 같은 대표값) 이 외에도 산포도(분산, 표준편차)의 정도와 개인별 약동학 파라미터 추정까지도 포함된다. 이것을 추정하는 방법으로 2-단계 접근법 (Two-Stage Approach)과 비선형 혼합-효과 모형 접근법(Nonlinear Mixed-Effects Modeling Approach)이 있다.</p>
-<div id="-two-stage-approach" class="section level2">
+<div id="단계-접근법two-stage-approach" class="section level2" number="3.1">
 <h2><span class="header-section-number">3.1</span> 2-단계 접근법(Two-Stage Approach)</h2>
 <p>2-단계 접근법(Two-Stage Approach)은 약동학 분석에서 전형적으로 사용되는 방법이다. 이 접근법의 첫 번째 단계에서는, 개인별 농도-시간 자료로부터 비선형 회귀를 통해 개인별 약동학 파라미터를 추정하게 된다. 이는 통상 개인별로 시간별 측정값이 10 여개 이상으로 충분히 존재하는 조밀한 자료(dense data)를 이용하게 된다.</p>
 <p>첫 번째 단계에서 얻은 개인별 파라미터는 두 번째 단계인 표본의 기술 통계량 계산을 위해 입력 자료(input data)로 활용된다(개인별 파라미터의 평균, 분산, 공분산). 즉, 1 차로 추정된 개인별 파라미터들로부터 다시 인구 전체에서의 평균(또는 중앙값 같은 대표값)이나 산포도(분산, 표준편차) 값들을 추정하는 방법이다. 전형적 통계 접근법(선형단계 회귀 분석(linear stepwise regression), 공분산 분석(covariance analysis), 군집 분석(cluster analysis))을 이용한 파라미터와 공변량(covariates) 사이의 관계(dependencies) 분석이 두 번째 단계에 포함될 수 있다. 적용 가능한 경우, 2-단계 접근법을 통해 집단의 특성을 나타내는 적절한 추정치를 얻을 수 있다.</p>
 <p>일반적으로 파라미터의 평균 추정치는 편향되지 않지만(unbiased) 모든 실제 상황에서 무작위효과(random effects, 분산과 공분산)가 과하게 평가되는(overestimate) 경향이 있다. 이에 자료의 질(quality)과 양(quantity)에 따라 개별 자료에 다른 가중치(differential weighting)를 부여하고, 무작위효과의 공분산의 편향(bias)을 교정하는 방식으로 개선된 2-단계 접근법(global two-stage approach)이 제안되고 있다.</p>
 <p>2-단계 접근법은 신약 개발과 평가 과정에 널리 사용되어 왔으므로 이 가이드라인에서는 상세히 다루지 않을 것이다.</p>
 </div>
-<div id="----nonlinear-mixed-effects-modeling-approach" class="section level2">
+<div id="비선형-혼합-효과-모형-접근법nonlinear-mixed-effects-modeling-approach" class="section level2" number="3.2">
 <h2><span class="header-section-number">3.2</span> 비선형 혼합-효과 모형 접근법(Nonlinear Mixed-Effects Modeling Approach)</h2>
 <p>비선형 혼합-효과 모형(Nonlinear Mixed-Effects modeling)과 같이 적절한 수학적/통계적 분석을 적용하여 환자 대상의 집단 약동학 연구를 적절하게 수행하는 경우, 광범위한(extensive) 환자 집단에서 수행하여야 하는 임상시험의 대안으로 선호될 수 있다. 개인별 파라미터를 추정하는 전형적인 2-단계 접근법이 적용될 수 없는 희박한 자료(sparse data)에 있어서는 비선형 혼합-효과 모형과 같은 1-단계 접근법(single-stage approach)을 사용해야 한다.</p>
 <p>약동학 및 약력학 연구가 환자에서 진행되는 경우는 전형적인 방법보다(예, 건강한 지원자) 덜 엄격하고 덜 제한적인 조건에서 자료가 수집될 수 밖에 없는 점을 고려하여 비선형 혼합-효과 모형 방법이 개발되었다고도 할 수 있다.</p>
@@ -169,11 +182,13 @@
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -181,11 +196,11 @@ gitbook.start({
 "github": true,
 "facebook": true,
 "twitter": true,
-"google": false,
+"linkedin": false,
 "weibo": false,
-"instapper": false,
+"instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -193,10 +208,18 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/asancpt/book-poppk/edit/master/inst/examples/Rmd/30-poppk.Rmd",
+"link": "https://github.com/pipetcpt/book-poppk/edit/master/inst/examples/Rmd/30-poppk.Rmd",
 "text": "Edit"
 },
-"download": ["poppk.pdf", "poppk.epub"],
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["poppk.pdf", "poppk.epub", "poppk.mobi"],
 "toc": {
 "collapse": "none"
 }
