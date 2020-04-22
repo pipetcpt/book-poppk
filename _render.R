@@ -22,7 +22,7 @@ for (fmt in formats) {
 }
 
 r = '<body onload="window.location = \'https://bookdown.org/yihui\'+location.pathname">'
-for (f in list.files('docs', '[.]html$', full.names = TRUE)) {
+for (f in list.files('_book', '[.]html$', full.names = TRUE)) {
   x = readLines(f)
   if (length(i <- grep('^\\s*<body>\\s*$', x)) == 0) next
   # patch HTML files in gh-pages if built on Travis, to redirect to bookdown.org
